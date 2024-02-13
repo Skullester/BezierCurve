@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ClassLibrary1">
-      <HintPath>..\ConsoleApp7\bin\Debug\net8.0\ClassLibrary1.dll</HintPath>
+    <Reference Include="ConsoleApp7">
+      <HintPath>..\..\ConsoleApp7\bin\Debug\net8.0\ConsoleApp7.dll</HintPath>
     </Reference>
   </ItemGroup>
 

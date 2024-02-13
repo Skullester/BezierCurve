@@ -18,7 +18,7 @@ public partial class MainForm : Form
     {
         trackBar1.ValueChanged += OnTrackBarChanged;
     }
-    private void OnTrackBarChanged(object o, EventArgs e)
+    private void OnTrackBarChanged(object? o, EventArgs e)
     {
         if (!Validate())
             return;
@@ -50,9 +50,9 @@ public partial class MainForm : Form
             pointCollection.AddXY(p.X, p.Y);
         }
     }
-    private Point BuildHelpLines(IReadOnlyList<Point> points = default, int index = 0)
+    private Point BuildHelpLines(IReadOnlyList<Point> points, int index = 0)
     {
-        Point point = default;
+        Point? point = default;
         var list = new List<Point>();
         for (var i = 0; i < points.Count - 1; i++)
         {
@@ -67,7 +67,7 @@ public partial class MainForm : Form
 
         if (list.Count > 1)
             return BuildHelpLines(list, ++index);
-        return point;
+        return point!;
     }
 
     private new bool Validate()

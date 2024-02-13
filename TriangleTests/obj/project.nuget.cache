@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sDbmRhK+j8RjyMfHd0zcvGc4gXSGywwnQVNp5ukd59VPs+Y4emnH+CCEbf53Ab62fD2cYN/QVHNguCbs415kfA==",
+  "dgSpecHash": "lCqsQM3puTOTcr80JtNaBYsFR5LSixC2i83dZ4kXBaFn0e+OszPdX7/ZC0x6JMp0/684Rp2JT8cYX7+ZTUWPpg==",
   "success": true,
-  "projectFilePath": "P:\\VS Projects\\TriangleTests\\TriangleTests.csproj",
+  "projectFilePath": "P:\\VS Projects\\BezierCurveProject\\TriangleTests\\TriangleTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsam\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\mrsam\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

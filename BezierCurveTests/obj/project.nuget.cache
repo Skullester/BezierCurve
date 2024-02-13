@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFayqun1jUGTV8ZQc+IrwEvgOzwBsyfJPYHGxLTkTp7B71a9eSgRbXYp0Sm9zZ3f+V6ibtQ1LFmPy+rSdpUdIA==",
+  "dgSpecHash": "2sxZbdlXdYaA8stcMhA8niUxG9O0N2lKHJP5V4vqJROtFAqiN3Fqtk/1qXiPcyi1IofCHdq6JqyquA1KcyBCqg==",
   "success": true,
-  "projectFilePath": "P:\\VS Projects\\BezierCurveTests\\BezierCurveTests.csproj",
+  "projectFilePath": "P:\\VS Projects\\BezierCurveProject\\BezierCurveTests\\BezierCurveTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsam\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\mrsam\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

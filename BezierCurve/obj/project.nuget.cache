@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X0wi9CMsXLVRDgdGx1YVf+6H8EXxXONIKi/eTiogH2wmLWjocfviW2H5409yxoEZIi86WFfERYZZ7mXeO+1yjw==",
+  "dgSpecHash": "tCT2/vrOuItoqR86uqmmIqurQXGkET6ua3QsU2naVGKPufOGQj/KBwSi+yq1dD80hixj6Pur0/tMmFCBinXpRQ==",
   "success": true,
-  "projectFilePath": "P:\\VS Projects\\BezierCurve\\BezierCurve.csproj",
+  "projectFilePath": "P:\\VS Projects\\BezierCurveProject\\BezierCurve\\BezierCurve.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsam\\.nuget\\packages\\winforms.datavisualization\\1.9.1\\winforms.datavisualization.1.9.1.nupkg.sha512"
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A624/pCtVU+PTzMlxTBLWs5Z1yxl9/ax//EPH0vDDrCQjXrRIhGuCKu6yl6fUckhXQpizS9vSmZmJy2rVLMG0Q==",
+  "dgSpecHash": "ouEGRkCla2zZRroS9IphEAYDZLsvsv8BPogAhvgDFl5e2GVbLLMuljuHeli1YOICz7aQb3nY3H9GS1JJsKJHKA==",
   "success": true,
-  "projectFilePath": "P:\\VS Projects\\ClassLibrary2\\ClassLibrary2.csproj",
+  "projectFilePath": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\ClassLibrary2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

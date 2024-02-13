@@ -90,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\VS Projects\\BezierCurve\\BezierCurve.csproj",
+      "projectUniqueName": "P:\\VS Projects\\BezierCurveProject\\BezierCurve\\BezierCurve.csproj",
       "projectName": "BezierCurve",
-      "projectPath": "P:\\VS Projects\\BezierCurve\\BezierCurve.csproj",
+      "projectPath": "P:\\VS Projects\\BezierCurveProject\\BezierCurve\\BezierCurve.csproj",
       "packagesPath": "C:\\Users\\mrsam\\.nuget\\packages\\",
-      "outputPath": "P:\\VS Projects\\BezierCurve\\obj\\",
+      "outputPath": "P:\\VS Projects\\BezierCurveProject\\BezierCurve\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +115,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "P:\\VS Projects\\ClassLibrary2\\ClassLibrary2.csproj": {
-              "projectPath": "P:\\VS Projects\\ClassLibrary2\\ClassLibrary2.csproj"
+            "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\ClassLibrary2.csproj": {
+              "projectPath": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\ClassLibrary2.csproj"
             }
           }
         }
