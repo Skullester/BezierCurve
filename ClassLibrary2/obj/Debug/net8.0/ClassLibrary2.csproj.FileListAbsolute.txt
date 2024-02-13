@@ -1,0 +1,15 @@
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.AssemblyReference.cache
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.AssemblyInfoInputs.cache
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.AssemblyInfo.cs
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+P:\VS Projects\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.deps.json
+P:\VS Projects\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.dll
+P:\VS Projects\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.pdb
+P:\VS Projects\ClassLibrary2\bin\Debug\net8.0\ClassLibrary1.dll
+P:\VS Projects\ClassLibrary2\bin\Debug\net8.0\ClassLibrary1.pdb
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.CopyComplete
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.dll
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\refint\ClassLibrary2.dll
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.pdb
+P:\VS Projects\ClassLibrary2\obj\Debug\net8.0\ref\ClassLibrary2.dll
