@@ -15,18 +15,13 @@ public class Point
         Y = y;
     }
 
-    public Point(Point point)
-    {
-        X = point.X;
-        Y = point.Y;
-    }
+    public Point(Point point) : this(point.X, point.Y)
+    { }
     /// <summary>
     /// Создает точку с координатами (0;0)
     /// </summary>
     public Point()
     {
-        X = Zero.X;
-        Y = Zero.Y;
     }
     private bool Equals(Point other)
     {

@@ -27,6 +27,14 @@ public abstract class Animal
         BirthPlace = birthPlace;
     }
 
-    public abstract void Eat();
     public abstract void Move();
+    public string Print()
+    {
+        return "Животное";
+    }
+
+    public override string ToString()
+    {
+        return $"Животное: {Name}";
+    }
 }

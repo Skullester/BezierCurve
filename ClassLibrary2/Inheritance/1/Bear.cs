@@ -10,11 +10,6 @@ public class Bear : Animal
     {
     }
 
-    public override void Eat()
-    {
-        throw new NotImplementedException();
-    }
-
     public override void Move()
     {
         Console.WriteLine("Медведь двигается в сторону своей берлоги...");

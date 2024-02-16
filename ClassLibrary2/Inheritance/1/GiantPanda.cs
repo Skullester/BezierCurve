@@ -12,9 +12,12 @@ public class GiantPanda : Bear
     {
         Console.WriteLine("Панда лениво передвигается по деревьям...");
     }
-
-    public override void Eat()
+    public new string Print()
     {
-
+        return "Панда";
+    }
+    public override string ToString()
+    {
+        return $"Панда: {Name}";
     }
 }
