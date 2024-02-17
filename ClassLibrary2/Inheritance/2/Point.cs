@@ -23,9 +23,9 @@ public class Point
     public Point()
     {
     }
-    private bool Equals(Point other)
+    private bool Equals(Point? other)
     {
-        return X.Equals(other.X) && Y.Equals(other.Y);
+        return X.Equals(other?.X) && Y.Equals(other.Y);
     }
 
     public override bool Equals(object? obj)
