@@ -2,15 +2,21 @@
 
 public class MultiBezierCurve : BezierCurve
 {
-    public MultiBezierCurve(IEnumerable<Point> points, double t) : base(points.First(), points.Last(), t)
+    public MultiBezierCurve(IEnumerable<Point> points, double t = 0d) : base(points.First(), points.Last(), t)
     {
-        dimensions = points.Count() - 1;
-        this.points = points.ToArray();
+        Initialize(points);
     }
-    public MultiBezierCurve(IEnumerable<Point> points) : this(points, 0d)
+    public MultiBezierCurve(List<Point> points, double t = 0d) : base(points[0], points[^1], t)
     {
+        Initialize(points);
+    }
 
+    private void Initialize(IEnumerable<Point> points)
+    {
+        this.points = points.ToArray();
+        dimensions = this.points.Length - 1;
     }
+
     public MultiBezierCurve(params Point[] points) : this(points, 0d)
     {
 

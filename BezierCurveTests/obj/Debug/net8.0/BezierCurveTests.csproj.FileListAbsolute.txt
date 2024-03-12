@@ -207,3 +207,4 @@ P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\refint\Bezie
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.pdb
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.genruntimeconfig.cache
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\ref\BezierCurveTests.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.framework.legacy.dll

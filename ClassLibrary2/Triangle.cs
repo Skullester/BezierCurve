@@ -27,7 +27,7 @@ public class Triangle
     }
 
     /// <summary>
-    /// Определяет треугольник со сторонами a,b,c в координатах (0,0);(b;0);(0,c)
+    /// Определяет треугольник со сторонами a,b,c в координатах (0,0);(b,0);(0,c)
     /// </summary>
     /// <param name="a"></param>
     /// <param name="b"></param>
@@ -39,6 +39,7 @@ public class Triangle
         this.c = c;
         ValidateSides();
         Coordinates = new(new Point(0, 0), new Point((int)b, 0), new Point(0, (int)c));
+        IsRectangularMethod();
     }
 
     private void Initialize(Point pointA, Point pointB, Point pointC)
@@ -46,8 +47,8 @@ public class Triangle
         this.a = GetLength(GetVector(pointA, pointB));
         this.b = GetLength(GetVector(pointB, pointC));
         this.c = GetLength(GetVector(pointC, pointA));
-        ValidateSides();
         Coordinates = new(pointA, pointB, pointC);
+        IsRectangular = IsRectangularMethod();
     }
 
     private void ValidateSides()
@@ -84,7 +85,7 @@ public class Triangle
         var message = "Непрямоугольный";
         if (IsRectangular)
             message = "Прямоугольный";
-        return $"Координаты: {Coordinates}\n" + $"Стороны:{a},{b},{c}\n{message} треугольник";
+        return $"{Coordinates}\n" + $"Стороны:{a},{b},{c}\n{message} треугольник";
     }
 
 }

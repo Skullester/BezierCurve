@@ -6,7 +6,7 @@ public abstract class Animal
 {
     public enum AnimalEatingType
     {
-        Herbivores,//травоядные
+        Herbivores,//Травоядные
         Carnivores,//Хищники
         Omnivores//Всеядные
     }

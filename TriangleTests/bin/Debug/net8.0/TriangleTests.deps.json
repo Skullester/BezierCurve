@@ -13,7 +13,8 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.2.1",
-          "coverlet.collector": "6.0.0"
+          "coverlet.collector": "6.0.0",
+          "ClassLibrary1": "1.0.0.0"
         },
         "runtime": {
           "TriangleTests.dll": {}

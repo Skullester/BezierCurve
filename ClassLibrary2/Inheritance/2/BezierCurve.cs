@@ -15,7 +15,7 @@ public abstract class BezierCurve : Curve
         }
     }
     protected Point[]? points;
-    public IReadOnlyList<Point> Points => points;
+    public IReadOnlyList<Point> Points => points.AsReadOnly();
     public BezierCurve(Point start, Point end, double t) : base(start, end)
     {
         tParameter = t;
