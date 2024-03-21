@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B32BE-8F6D-43F9-A8BA-9E4A853E6932}|ClassLibrary2.csproj|p:\\vs projects\\beziercurveproject\\classlibrary2\\inheritance\\2\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B32BE-8F6D-43F9-A8BA-9E4A853E6932}|ClassLibrary2.csproj|solutionrelative:inheritance\\2\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 76,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Point.cs",
+              "DocumentMoniker": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\Inheritance\\2\\Point.cs",
+              "RelativeDocumentMoniker": "Inheritance\\2\\Point.cs",
+              "ToolTip": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\Inheritance\\2\\Point.cs",
+              "RelativeToolTip": "Inheritance\\2\\Point.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAowBEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T19:41:35.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
