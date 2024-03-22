@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BezierCurveTests", "..\Bezi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BezierCurve", "..\BezierCurve\BezierCurve.csproj", "{D100FBAF-694C-4AC4-AFF2-730EC235944F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceTests", "..\InheritanceTests\InheritanceTests.csproj", "{EF82B7B1-5DCE-44D5-AD3B-841430252FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceTests", "..\InheritanceTests\InheritanceTests.csproj", "{EF82B7B1-5DCE-44D5-AD3B-841430252FDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruncatedTetrahedron", "..\Tetrahedron\TruncatedTetrahedron.csproj", "{1603351F-4280-437F-A1DD-961BB070E52D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionsTests", "..\ExtensionsTests\ExtensionsTests.csproj", "{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List2Tests", "..\List2Tests\List2Tests.csproj", "{712BB0F3-3964-4733-A84D-031597698FDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{EF82B7B1-5DCE-44D5-AD3B-841430252FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF82B7B1-5DCE-44D5-AD3B-841430252FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF82B7B1-5DCE-44D5-AD3B-841430252FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1603351F-4280-437F-A1DD-961BB070E52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1603351F-4280-437F-A1DD-961BB070E52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1603351F-4280-437F-A1DD-961BB070E52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1603351F-4280-437F-A1DD-961BB070E52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712BB0F3-3964-4733-A84D-031597698FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712BB0F3-3964-4733-A84D-031597698FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712BB0F3-3964-4733-A84D-031597698FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712BB0F3-3964-4733-A84D-031597698FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

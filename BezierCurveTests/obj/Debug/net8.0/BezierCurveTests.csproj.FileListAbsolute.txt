@@ -201,10 +201,10 @@ P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveT
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.AssemblyInfo.cs
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.csproj.CoreCompileInputs.cache
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.sourcelink.json
-P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.csproj.CopyComplete
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\refint\BezierCurveTests.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.pdb
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.genruntimeconfig.cache
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\ref\BezierCurveTests.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.framework.legacy.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCu.5D81053B.Up2Date

@@ -1,6 +1,6 @@
 ﻿namespace Bezier._2;
 
-public class Curve
+public class Curve : IComparable<Curve>
 {
     public Point Start { get; }
     public Point End { get; }
@@ -31,5 +31,13 @@ public class Curve
 
     public override string ToString() => $"Start: {Start}, End: {End}";
 
+    public int CompareTo(Curve? other)
+    {
+        if (ReferenceEquals(this, other)) return 0;
+        if (ReferenceEquals(null, other)) return 1;
+        var cond = Start.CompareTo(other.Start);
+        if (cond != 0) return cond;
+        return End.CompareTo(other.End);
+    }
 }
 

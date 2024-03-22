@@ -2,7 +2,7 @@
 
 namespace Bezier._2;
 
-public class Point
+public class Point : IComparable<Point>
 {
     public static readonly Point Zero = new(0, 0);
 
@@ -34,6 +34,15 @@ public class Point
         if (ReferenceEquals(this, obj)) return true;
         if (obj.GetType() != this.GetType()) return false;
         return Equals(obj as Point);
+    }
+
+    public int CompareTo(Point? other)
+    {
+        if (ReferenceEquals(this, other)) return 0;
+        if (ReferenceEquals(null, other)) return 1;
+        var cond = X.CompareTo(other.X);
+        if (cond != 0) return cond;
+        return Y.CompareTo(other.Y);
     }
 
     public override int GetHashCode()

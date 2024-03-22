@@ -27,5 +27,5 @@ P:\VS Projects\BezierCurveProject\ClassLibrary2\bin\Debug\net8.0\ClassLibrary2.p
 P:\VS Projects\BezierCurveProject\ClassLibrary2\bin\Debug\net8.0\ClassLibrary1.dll
 P:\VS Projects\BezierCurveProject\ClassLibrary2\bin\Debug\net8.0\ClassLibrary1.pdb
 P:\VS Projects\BezierCurveProject\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.AssemblyReference.cache
-P:\VS Projects\BezierCurveProject\ClassLibrary2\obj\Debug\net8.0\ClassLibrary2.csproj.CopyComplete
 P:\VS Projects\BezierCurveProject\ClassLibrary2\obj\Debug\net8.0\ref\ClassLibrary2.dll
+P:\VS Projects\BezierCurveProject\ClassLibrary2\obj\Debug\net8.0\ClassLib.E736BE99.Up2Date

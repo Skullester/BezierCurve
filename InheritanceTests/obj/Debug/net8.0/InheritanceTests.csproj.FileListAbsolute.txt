@@ -97,9 +97,9 @@ P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceT
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.AssemblyInfo.cs
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.csproj.CoreCompileInputs.cache
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.sourcelink.json
-P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.csproj.CopyComplete
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.dll
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\refint\InheritanceTests.dll
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.pdb
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\InheritanceTests.genruntimeconfig.cache
 P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\ref\InheritanceTests.dll
+P:\VS Projects\BezierCurveProject\InheritanceTests\obj\Debug\net8.0\Inherita.1BEF152F.Up2Date

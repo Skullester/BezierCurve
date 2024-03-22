@@ -201,9 +201,14 @@ P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.A
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.AssemblyInfo.cs
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.csproj.CoreCompileInputs.cache
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.sourcelink.json
-P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.csproj.CopyComplete
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.dll
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\refint\TriangleTests.dll
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.pdb
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\TriangleTests.genruntimeconfig.cache
 P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\ref\TriangleTests.dll
+P:\VS Projects\BezierCurveProject\TriangleTests\obj\Debug\net8.0\Triangle.3140BAFB.Up2Date
+P:\VS Projects\BezierCurveProject\TriangleTests\bin\Debug\net8.0\BezierCurveTests.deps.json
+P:\VS Projects\BezierCurveProject\TriangleTests\bin\Debug\net8.0\BezierCurveTests.runtimeconfig.json
+P:\VS Projects\BezierCurveProject\TriangleTests\bin\Debug\net8.0\nunit.framework.legacy.dll
+P:\VS Projects\BezierCurveProject\TriangleTests\bin\Debug\net8.0\BezierCurveTests.dll
+P:\VS Projects\BezierCurveProject\TriangleTests\bin\Debug\net8.0\BezierCurveTests.pdb
