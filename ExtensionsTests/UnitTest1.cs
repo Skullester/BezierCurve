@@ -24,6 +24,6 @@ public class Tests
     {
         var tr = new Triangle(3, 4, 5);
         var isRect = TriangleExtensions.IsRectangular(tr);
-        Assert.That(isRect, Is.True);
+        Assert.That(isRect);
     }
 }

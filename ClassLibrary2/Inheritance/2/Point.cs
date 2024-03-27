@@ -23,10 +23,7 @@ public class Point : IComparable<Point>
     public Point()
     {
     }
-    private bool Equals(Point? other)
-    {
-        return X.Equals(other?.X) && Y.Equals(other.Y);
-    }
+    private bool Equals(Point? other) => X.Equals(other?.X) && Y.Equals(other.Y);
 
     public override bool Equals(object? obj)
     {
@@ -45,39 +42,19 @@ public class Point : IComparable<Point>
         return Y.CompareTo(other.Y);
     }
 
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(X, Y);
-    }
+    public override int GetHashCode() => HashCode.Combine(X, Y);
 
-    public static Point Subtract(Point a, Point b)
-    {
-        return a - b;
-    }
+    public static Point Subtract(Point a, Point b) => a - b;
 
-    public static Point Add(Point a, Point b)
-    {
-        return a + b;
-    }
-    public static Point Multiply(Point a, double value)
-    {
-        return a * value;
-    }
+    public static Point Add(Point a, Point b) => a + b;
 
-    public static Point operator -(Point a, Point b)
-    {
-        return new Point(a.X - b.X, a.Y - b.Y);
-    }
+    public static Point Multiply(Point a, double value) => a * value;
 
-    public static Point operator +(Point a, Point b)
-    {
-        return new Point(a.X + b.X, a.Y + b.Y);
-    }
+    public static Point operator -(Point a, Point b) => new(a.X - b.X, a.Y - b.Y);
 
-    public static Point operator *(Point a, double value)
-    {
-        return new Point(a.X * value, a.Y * value);
-    }
+    public static Point operator +(Point a, Point b) => new(a.X + b.X, a.Y + b.Y);
+
+    public static Point operator *(Point a, double value) => new(a.X * value, a.Y * value);
 
     public override string ToString() => $"{X};{Y}";
 }

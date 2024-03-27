@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TruncatedTetrahedron")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+787f9f59d0d808a9c8bd94403ce8847ece9c73d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29f6d68f2972f9114dc54c41fe8e03711640b317")]
 [assembly: System.Reflection.AssemblyProductAttribute("TruncatedTetrahedron")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TruncatedTetrahedron")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,5 +4,4 @@ namespace Interfaces;
 
 public class List2 : List<BezierCurve>
 {
-
 }
