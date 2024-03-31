@@ -1,5 +1,4 @@
 using Bezier._2;
-
 namespace Interfaces;
 
 public class Tests
