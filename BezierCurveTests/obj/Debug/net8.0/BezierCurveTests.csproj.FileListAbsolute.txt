@@ -105,12 +105,6 @@ P:\VS Projects\BezierCurveTests\bin\Debug\net8.0\ClassLibrary1.pdb
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\CoverletSourceRootsMapping_BezierCurveTests
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\testhost.exe
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\testhost.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.api.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.core.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\testcentric.engine.metadata.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\BezierCurveTests.deps.json
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\BezierCurveTests.runtimeconfig.json
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\BezierCurveTests.dll

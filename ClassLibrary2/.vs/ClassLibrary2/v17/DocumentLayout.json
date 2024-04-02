@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EC7B32BE-8F6D-43F9-A8BA-9E4A853E6932}|ClassLibrary2.csproj|p:\\vs projects\\beziercurveproject\\classlibrary2\\interfaces\\list2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC7B32BE-8F6D-43F9-A8BA-9E4A853E6932}|ClassLibrary2.csproj|solutionrelative:interfaces\\list2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 76,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "List2.cs",
-              "DocumentMoniker": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\Interfaces\\List2.cs",
-              "RelativeDocumentMoniker": "Interfaces\\List2.cs",
-              "ToolTip": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\Interfaces\\List2.cs",
-              "RelativeToolTip": "Interfaces\\List2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T17:13:54.825Z",
-              "EditorCaption": ""
             }
           ]
         }

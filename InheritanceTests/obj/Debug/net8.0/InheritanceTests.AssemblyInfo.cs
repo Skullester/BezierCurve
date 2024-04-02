@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InheritanceTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29f6d68f2972f9114dc54c41fe8e03711640b317")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+935df45368171930ac198b932b74176d792089f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("InheritanceTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InheritanceTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

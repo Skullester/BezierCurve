@@ -369,7 +369,7 @@
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "NUnit": "4.1.0",
           "NUnit.Analyzers": "3.6.1",
-          "NUnit3TestAdapter": "4.2.1",
+          "NUnit3TestAdapter": "4.5.0",
           "coverlet.collector": "6.0.0"
         },
         "compile": {
