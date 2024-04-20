@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BezierCurve")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+935df45368171930ac198b932b74176d792089f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+356d042bf90a8c6b6f3fe966840f3a918fe69bf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BezierCurve")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BezierCurve")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
