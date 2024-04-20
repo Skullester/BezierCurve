@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "P:\\VS Projects\\BezierCurveProject\\ClassLibrary2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9}|..\\ExtensionsTests\\ExtensionsTests.csproj|p:\\vs projects\\beziercurveproject\\extensionstests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712BB0F3-3964-4733-A84D-031597698FDD}|..\\List2Tests\\List2Tests.csproj|p:\\vs projects\\beziercurveproject\\list2tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,13 +27,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "P:\\VS Projects\\BezierCurveProject\\ExtensionsTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\ExtensionsTests\\UnitTest1.cs",
-              "ToolTip": "P:\\VS Projects\\BezierCurveProject\\ExtensionsTests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\ExtensionsTests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "DocumentMoniker": "P:\\VS Projects\\BezierCurveProject\\List2Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\List2Tests\\UnitTest1.cs",
+              "ToolTip": "P:\\VS Projects\\BezierCurveProject\\List2Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\List2Tests\\UnitTest1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIBBwAUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T22:35:06.96Z",
+              "WhenOpened": "2024-04-20T15:49:21.021Z",
               "EditorCaption": ""
             }
           ]
