@@ -1,5 +1,4 @@
 using Bezier._2;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using Point = Bezier._2.Point;
 namespace BezierCurveTests;
 

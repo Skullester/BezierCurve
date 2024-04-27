@@ -23,6 +23,7 @@ public class Tests
     public void RectangularTriangleDirectCallTest()
     {
         var tr = new Triangle(3, 4, 5);
+        // ReSharper disable once InvokeAsExtensionMethod
         var isRect = TriangleExtensions.IsRectangular(tr);
         Assert.That(isRect);
     }
