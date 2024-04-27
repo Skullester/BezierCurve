@@ -13,7 +13,7 @@ public class TruncatedTetrahedronTests
         Assert.That(a, Is.EqualTo(tetr.A));
     }
 
-    [TestCase(-1)]
+    [TestCase(0)]
     [TestCase(-2)]
     [TestCase(-3)]
     [TestCase(-4)]

@@ -202,3 +202,9 @@ P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveT
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\ref\BezierCurveTests.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.framework.legacy.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCu.5D81053B.Up2Date
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.api.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\nunit.engine.core.dll
+P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\testcentric.engine.metadata.dll

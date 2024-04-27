@@ -9,6 +9,13 @@ public class Curve : IComparable<Curve>
     {
         Start = start;
         End = end;
+        ThrowIfNull();
+    }
+
+    private void ThrowIfNull()
+    {
+        ArgumentNullException.ThrowIfNull(Start);
+        ArgumentNullException.ThrowIfNull(End);
     }
 
     private bool Equals(Curve other)
@@ -31,7 +38,7 @@ public class Curve : IComparable<Curve>
 
     public override string ToString() => $"Start: {Start}, End: {End}";
 
-    public int CompareTo(Curve? other)
+    public virtual int CompareTo(Curve? other)
     {
         if (ReferenceEquals(this, other)) return 0;
         if (ReferenceEquals(null, other)) return 1;

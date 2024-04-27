@@ -1,4 +1,5 @@
 using Bezier._2;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using Point = Bezier._2.Point;
 namespace BezierCurveTests;
 
@@ -48,6 +49,14 @@ public class Tests
         var curve = new Curve(new Point(x0, y0), new Point(x1, y1));
         var curve2 = new Curve(new Point(x0, y0), new Point(x1, y1));
         Assert.That(curve, Is.EqualTo(curve2));
+    }
+
+    [TestCase("tParameter: 0; 1;2 1;3 2;6")]
+    public void ToString_BezierCurve_Test(string example)
+    {
+        var curve = new QuadraticBezierCurve(new Point(1, 2), new Point(1, 3), new Point(2, 6));
+        var str = curve.ToString();
+        Assert.That(str, Is.EqualTo(example));
     }
 
     [Test]
@@ -107,7 +116,7 @@ public class Tests
     [TestCase(7, 8, 12, 1, -12)]
     public void ThrowException_If_Parameter_Is_Incorrect(double x0, double y0, double x1, double y1, double t)
     {
-        Assert.Throws(typeof(ArgumentException), () => new LinearBezierCurve(new Point(x0, y0), new Point(x1, y1), t));
+        Assert.Throws<ArgumentException>(() => new LinearBezierCurve(new Point(x0, y0), new Point(x1, y1), t));
     }
 
     [TestCase(1, 2, 3, 4)]

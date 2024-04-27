@@ -113,15 +113,7 @@ public class Tests
     [TestCaseSource(nameof(TestCasesSidesIncorrect))]
     public void TriangleInCorrectSidesTest(double a, double b, double c)
     {
-        try
-        {
-            new Triangle(a, b, c);
-        }
-        catch (Exception ex)
-        {
-            return;
-        }
-        Assert.Fail();
+        Assert.Throws<ArgumentException>(() => new Triangle(a, b, c));
     }
 
     [TestCaseSource(nameof(TestCasesRectangular))]

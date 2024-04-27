@@ -14,7 +14,7 @@ public class TruncatedTetrahedron
 
     private void SetA(double a)
     {
-        if (a < 0)
+        if (a <= 0)
             throw new ArgumentException();
         this.A = a;
     }

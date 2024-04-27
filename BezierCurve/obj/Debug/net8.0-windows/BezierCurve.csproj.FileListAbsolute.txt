@@ -43,9 +43,9 @@ P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCur
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.AssemblyInfo.cs
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.csproj.CoreCompileInputs.cache
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.sourcelink.json
-P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.csproj.CopyComplete
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.dll
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\refint\BezierCurve.dll
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.pdb
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.genruntimeconfig.cache
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\ref\BezierCurve.dll
+P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCu.5B8A35DF.Up2Date

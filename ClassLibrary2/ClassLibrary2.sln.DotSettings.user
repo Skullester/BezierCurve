@@ -10,6 +10,7 @@
   &lt;Assembly Path="C:\Users\mrsam\.nuget\packages\nunit\4.1.0\lib\net6.0\nunit.framework.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Users\mrsam\.nuget\packages\nunit\3.14.0\lib\netstandard2.0\nunit.framework.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.3\ref\net8.0\System.Drawing.Primitives.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.3\System.Private.CoreLib.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=afcd08ee_002D493c_002D4bdc_002Db4ed_002D92ef290e323d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
@@ -27,5 +28,7 @@
     &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests.GetSquareTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::712BB0F3-3964-4733-A84D-031597698FDD::net8.0::Interfaces.Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::ECD50BD5-7E24-4599-BAB3-488AA96DF1BB::net8.0::BezierCurveTests.Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests.TestException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

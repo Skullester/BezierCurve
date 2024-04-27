@@ -1,6 +1,6 @@
 ﻿namespace Bezier._2;
 
-public abstract class BezierCurve : Curve
+public abstract class BezierCurve : Curve, IComparable<BezierCurve>
 {
     private double t;
     protected int dimensions;
@@ -38,6 +38,23 @@ public abstract class BezierCurve : Curve
 
     public override string ToString()
     {
-        return $"{nameof(tParameter)}: {tParameter} " + base.ToString();
+        return $"{nameof(tParameter)}: {tParameter}; " + string.Join(" ", points as IEnumerable<Point>);
+    }
+
+    public int CompareTo(BezierCurve? other)
+    {
+        var compLength = points.Length.CompareTo(other.points.Length);
+        if (compLength != 0) return compLength;
+        var comp = base.CompareTo(other);
+        if (comp == 0)
+        {
+            for (var i = 1; i < points.Length - 1; i++)
+            {
+                var comp2 = points[i].CompareTo(other.points[i]);
+                if (comp2 != 0)
+                    return comp2;
+            }
+        }
+        return comp;
     }
 }
