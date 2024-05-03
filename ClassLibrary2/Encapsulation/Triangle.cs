@@ -80,5 +80,4 @@ public class Triangle
             message = "Прямоугольный";
         return $"{Coordinates}\n" + $"Стороны:{A},{B},{C}\n{message} треугольник";
     }
-
 }

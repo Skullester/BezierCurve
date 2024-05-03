@@ -28,7 +28,7 @@ public class Curve : IComparable<Curve>
         if (ReferenceEquals(null, obj)) return false;
         if (ReferenceEquals(this, obj)) return true;
         if (obj.GetType() != this.GetType()) return false;
-        return Equals(obj as Curve);
+        return Equals((obj as Curve)!);
     }
 
     public override int GetHashCode()
@@ -36,15 +36,13 @@ public class Curve : IComparable<Curve>
         return HashCode.Combine(Start, End);
     }
 
-    public override string ToString() => $"Start: {Start}, End: {End}";
+    public override string ToString() => $"{nameof(Start)}: {Start}, {nameof(End)}: {End}";
 
     public virtual int CompareTo(Curve? other)
     {
         if (ReferenceEquals(this, other)) return 0;
         if (ReferenceEquals(null, other)) return 1;
         var cond = Start.CompareTo(other.Start);
-        if (cond != 0) return cond;
-        return End.CompareTo(other.End);
+        return cond != 0 ? cond : End.CompareTo(other.End);
     }
 }
-

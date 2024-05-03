@@ -16,6 +16,7 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
     }
     protected Point[]? points;
     public IReadOnlyList<Point> Points => points.AsReadOnly();
+
     public BezierCurve(Point start, Point end, double t) : base(start, end)
     {
         tParameter = t;
@@ -36,11 +37,6 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
         return new Point(xSum, ySum);
     }
 
-    public override string ToString()
-    {
-        return $"{nameof(tParameter)}: {tParameter}; " + string.Join(" ", points as IEnumerable<Point>);
-    }
-
     public int CompareTo(BezierCurve? other)
     {
         var compLength = points.Length.CompareTo(other.points.Length);
@@ -56,5 +52,10 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
             }
         }
         return comp;
+    }
+
+    public override string ToString()
+    {
+        return $"{nameof(tParameter)}: {tParameter}; " + string.Join(" ", points as IEnumerable<Point>);
     }
 }
