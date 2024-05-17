@@ -4,6 +4,7 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
 {
     private double t;
     protected int dimensions;
+
     public double tParameter
     {
         get => t;
@@ -14,8 +15,10 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
             t = value;
         }
     }
+
     protected Point[]? points;
     public IReadOnlyList<Point> Points => points.AsReadOnly();
+
 
     public BezierCurve(Point start, Point end, double t) : base(start, end)
     {
@@ -32,6 +35,7 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
             xSum += dimensions * Math.Pow(tParameter, i) * Math.Pow(1 - tParameter, dimensions - i) * point.X;
             ySum += dimensions * Math.Pow(tParameter, i) * Math.Pow(1 - tParameter, dimensions - i) * point.Y;
         }
+
         xSum += Math.Pow(t, dimensions) * points[^1].X;
         ySum += Math.Pow(t, dimensions) * points[^1].Y;
         return new Point(xSum, ySum);
@@ -51,6 +55,7 @@ public abstract class BezierCurve : Curve, IComparable<BezierCurve>
                     return comp2;
             }
         }
+
         return comp;
     }
 
