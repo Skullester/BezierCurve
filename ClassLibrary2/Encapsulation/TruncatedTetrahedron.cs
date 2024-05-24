@@ -16,7 +16,7 @@ public class TruncatedTetrahedron
     {
         if (a <= 0)
             throw new ArgumentException();
-        this.A = a;
+        A = a;
     }
 
     public double GetSquare() => 7 * Math.Sqrt(3) * A * A;

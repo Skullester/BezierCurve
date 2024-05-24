@@ -13,18 +13,5 @@
   &lt;Assembly Path="C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.3\System.Private.CoreLib.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=efa7ce58_002Dfe10_002D4208_002Da713_002Dcd0f10332bea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::EF82B7B1-5DCE-44D5-AD3B-841430252FDA::net8.0::InheritanceTests.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::8CF445F5-196B-40A0-88F1-B89EA90B8CBF::net8.0::TestProject2.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::Tetrahedron.TruncatedTetrahedronTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9::net8.0::ExtensionsTests.Tests.TriangleExtensionDirectTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9::net8.0::ExtensionsTests.Tests.NonRectangularTriangleTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::C98181B0-E488-48BE-8CA7-2F7B3FB4E9C9::net8.0::ExtensionsTests.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests.GetSquareTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::712BB0F3-3964-4733-A84D-031597698FDD::net8.0::Interfaces.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::ECD50BD5-7E24-4599-BAB3-488AA96DF1BB::net8.0::BezierCurveTests.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests.TestException&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::1603351F-4280-437F-A1DD-961BB070E52D::net8.0::TruncatedTetrahedron.TruncatedTetrahedronTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	
+	</wpf:ResourceDictionary>

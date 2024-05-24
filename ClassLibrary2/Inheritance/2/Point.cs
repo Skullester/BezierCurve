@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace Bezier._2;
+﻿namespace Bezier._2;
 
 public class Point : IComparable<Point>
 {

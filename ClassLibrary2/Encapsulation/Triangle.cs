@@ -1,5 +1,4 @@
 ﻿using Extensions;
-using System;
 using System.Drawing;
 using System.Numerics;
 
@@ -7,11 +6,11 @@ namespace ConsoleApp2;
 
 public class Triangle
 {
-    public readonly struct Location(Point aPoint, Point bPoint, Point cPoint)
+    public readonly struct Location(PointF aPoint, PointF bPoint, PointF cPoint)
     {
-        public Point APoint { get; } = aPoint;
-        public Point BPoint { get; } = bPoint;
-        public Point CPoint { get; } = cPoint;
+        public PointF APoint => aPoint;
+        public PointF BPoint => bPoint;
+        public PointF CPoint => cPoint;
 
         public override string ToString() => $"({APoint.X},{APoint.Y});({BPoint.X},{BPoint.Y});({CPoint.X},{CPoint.Y})";
     }
@@ -21,7 +20,8 @@ public class Triangle
     public double A { get; private set; }
     public double B { get; private set; }
     public double C { get; private set; }
-    public Triangle(Point a, Point b, Point c)
+
+    public Triangle(PointF a, PointF b, PointF c)
     {
         Initialize(a, b, c);
     }
@@ -34,18 +34,18 @@ public class Triangle
     /// <param name="c"></param>
     public Triangle(double a, double b, double c)
     {
-        this.A = a;
-        this.B = b;
-        this.C = c;
+        A = a;
+        B = b;
+        C = c;
         ValidateSides();
         Coordinates = new(new Point(0, 0), new Point((int)b, 0), new Point(0, (int)c));
     }
 
-    private void Initialize(Point pointA, Point pointB, Point pointC)
+    private void Initialize(PointF pointA, PointF pointB, PointF pointC)
     {
-        this.A = GetLength(GetVector(pointA, pointB));
-        this.B = GetLength(GetVector(pointB, pointC));
-        this.C = GetLength(GetVector(pointC, pointA));
+        A = GetLength(GetVector(pointA, pointB));
+        B = GetLength(GetVector(pointB, pointC));
+        C = GetLength(GetVector(pointC, pointA));
         Coordinates = new(pointA, pointB, pointC);
         IsRectangular = this.IsRectangular();
     }
@@ -57,7 +57,7 @@ public class Triangle
         IsRectangular = this.IsRectangular();
     }
 
-    private Vector2 GetVector(Point a, Point b)
+    private Vector2 GetVector(PointF a, PointF b)
     {
         var x = b.X - a.X;
         var y = b.Y - a.Y;

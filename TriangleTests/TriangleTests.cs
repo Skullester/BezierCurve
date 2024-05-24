@@ -1,4 +1,3 @@
-using System;
 using System.Drawing;
 using ConsoleApp2;
 
@@ -6,54 +5,53 @@ namespace TestProject2;
 
 public class Tests
 {
-    private static Point[][] TestCasesRectangular()
+    private static PointF[][] TestCasesRectangular()
     {
-        return new Point[][]
+        return new PointF[][]
         {
             [
-                new Point(0, 0), new Point(0, 3), new Point(4, 0)
+                new PointF(0, 0), new PointF(0, 3), new PointF(4, 0)
             ],
             [
-                new Point(0,0), new Point(0,6), new Point(8,0)
+                new PointF(0, 0), new PointF(0, 6), new PointF(8, 0)
             ],
             [
-                new Point(0,0), new Point(0,9), new Point(12,0)
+                new PointF(0, 0), new PointF(0, 9), new PointF(12, 0)
             ],
             [
-                new Point(0,0), new Point(0,12), new Point(16,0)
+                new PointF(0, 0), new PointF(0, 12), new PointF(16, 0)
             ],
-
         };
     }
 
-    private static Point[][] TestCasesSwappedRectangular() =>
-        new Point[][]
+    private static PointF[][] TestCasesSwappedRectangular() =>
+        new PointF[][]
         {
             [
-                new Point(0, 0), new Point(0, 3), new Point(4, 0)
+                new PointF(0, 0), new PointF(0, 3), new PointF(4, 0)
             ],
             [
-                new Point(0, 3), new Point(0, 0), new Point(4, 0)
+                new PointF(0, 3), new PointF(0, 0), new PointF(4, 0)
             ],
             [
-                new Point(4, 0), new Point(0, 0), new Point(0, 3)
+                new PointF(4, 0), new PointF(0, 0), new PointF(0, 3)
             ],
             [
-                new Point(12,0), new Point(0,9), new Point(0,0)
+                new PointF(12, 0), new PointF(0, 9), new PointF(0, 0)
             ],
             [
-                new Point(0,0), new Point(0,9), new Point(12,0)
+                new PointF(0, 0), new PointF(0, 9), new PointF(12, 0)
             ],
             [
-                new Point(0,0), new Point(0,12), new Point(16,0)
+                new PointF(0, 0), new PointF(0, 12), new PointF(16, 0)
             ],
             [
-                new Point(0,12), new Point(0,0), new Point(16,0)
+                new PointF(0, 12), new PointF(0, 0), new PointF(16, 0)
             ],
             [
-                new Point(0,12), new Point(16,0), new Point(0,0)
+                new PointF(0, 12), new PointF(16, 0), new PointF(0, 0)
             ],
-};
+        };
 
     private static double[][] TestCasesSidesIncorrect() =>
         new double[][]
@@ -69,22 +67,22 @@ public class Tests
             ],
         };
 
-    private static Point[][] TestCasesNonRectangular() =>
-        new Point[][]
+    private static PointF[][] TestCasesNonRectangular() =>
+        new PointF[][]
         {
             [
-                new Point(3,0), new Point(0,0), new Point(2,1)
+                new PointF(3, 0), new PointF(0, 0), new PointF(2, 1)
             ],
             [
-                new Point(0, 0), new Point(3, 0), new Point(2, 1)
+                new PointF(0, 0), new PointF(3, 0), new PointF(2, 1)
             ],
             [
-                new Point(0, 4), new Point(0, 0), new Point(6, 3)
+                new PointF(0, 4), new PointF(0, 0), new PointF(6, 3)
             ],
         };
 
     [TestCaseSource(nameof(TestCasesRectangular))]
-    public void CoordinatesAreCorrect(Point a, Point b, Point c)
+    public void CoordinatesAreCorrect(PointF a, PointF b, PointF c)
     {
         var triangle = new Triangle(a, b, c);
         var coordinates = triangle.Coordinates;
@@ -93,12 +91,11 @@ public class Tests
             Assert.That(coordinates.APoint, Is.EqualTo(a));
             Assert.That(coordinates.BPoint, Is.EqualTo(b));
             Assert.That(coordinates.CPoint, Is.EqualTo(c));
-
         });
     }
 
     [TestCaseSource(nameof(TestCasesSwappedRectangular))]
-    public void TriangleCorrectSidesTest(Point a, Point b, Point c)
+    public void TriangleCorrectSidesTest(PointF a, PointF b, PointF c)
     {
         var triangle = new Triangle(a, b, c);
         var coordinates = triangle.Coordinates;
@@ -117,7 +114,7 @@ public class Tests
     }
 
     [TestCaseSource(nameof(TestCasesRectangular))]
-    public void Triangle_RectangularTest(Point a, Point b, Point c)
+    public void Triangle_RectangularTest(PointF a, PointF b, PointF c)
     {
         var triangle = new Triangle(a, b, c);
         var isRectangular = triangle.IsRectangular;
@@ -125,7 +122,7 @@ public class Tests
     }
 
     [TestCaseSource(nameof(TestCasesNonRectangular))]
-    public void Triangle_Not_RectangularTest(Point a, Point b, Point c)
+    public void Triangle_Not_RectangularTest(PointF a, PointF b, PointF c)
     {
         var triangle = new Triangle(a, b, c);
         var isRectangular = triangle.IsRectangular;
@@ -133,7 +130,7 @@ public class Tests
     }
 
     [TestCaseSource(nameof(TestCasesSwappedRectangular))]
-    public void TriangleRectangular_ButCoordinatesAreSwappedTest(Point a, Point b, Point c)
+    public void TriangleRectangular_ButCoordinatesAreSwappedTest(PointF a, PointF b, PointF c)
     {
         var triangle = new Triangle(a, b, c);
         var isRectangular = triangle.IsRectangular;

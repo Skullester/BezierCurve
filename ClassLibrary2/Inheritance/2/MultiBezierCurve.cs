@@ -1,4 +1,6 @@
-﻿namespace Bezier._2;
+﻿using System.Collections;
+
+namespace Bezier._2;
 
 public class MultiBezierCurve : BezierCurve
 {
@@ -6,7 +8,8 @@ public class MultiBezierCurve : BezierCurve
     {
         Initialize(points);
     }
-    public MultiBezierCurve(List<Point> points, double t = 0d) : base(points[0], points[^1], t)
+
+    public MultiBezierCurve(IList<Point> points, double t = 0d) : base(points[0], points[^1], t)
     {
         Initialize(points);
     }
@@ -19,6 +22,5 @@ public class MultiBezierCurve : BezierCurve
 
     public MultiBezierCurve(params Point[] points) : this(points, 0d)
     {
-
     }
 }

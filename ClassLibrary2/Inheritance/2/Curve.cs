@@ -27,8 +27,7 @@ public class Curve : IComparable<Curve>
     {
         if (ReferenceEquals(null, obj)) return false;
         if (ReferenceEquals(this, obj)) return true;
-        if (obj.GetType() != this.GetType()) return false;
-        return Equals((obj as Curve)!);
+        return obj.GetType() == this.GetType() && Equals((obj as Curve)!);
     }
 
     public override int GetHashCode()
