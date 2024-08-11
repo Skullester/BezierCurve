@@ -30,9 +30,7 @@ P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\BezierCur
 P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
 P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
 P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\ClassLibrary2.dll
-P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\ClassLibrary1.dll
 P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\ClassLibrary2.pdb
-P:\VS Projects\BezierCurveProject\BezierCurve\bin\Debug\net8.0-windows\ClassLibrary1.pdb
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.csproj.AssemblyReference.cache
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.MainForm.resources
 P:\VS Projects\BezierCurveProject\BezierCurve\obj\Debug\net8.0-windows\BezierCurve.csproj.GenerateResource.cache

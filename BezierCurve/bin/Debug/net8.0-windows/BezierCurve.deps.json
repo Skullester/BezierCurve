@@ -9,8 +9,7 @@
       "BezierCurve/1.0.0": {
         "dependencies": {
           "ClassLibrary2": "1.0.0",
-          "WinForms.DataVisualization": "1.9.1",
-          "ConsoleApp7": "1.0.0.0"
+          "WinForms.DataVisualization": "1.9.1"
         },
         "runtime": {
           "BezierCurve.dll": {}
@@ -30,21 +29,8 @@
       },
       "ClassLibrary2/1.0.0": {
         "runtime": {
-          "ClassLibrary2.dll": {}
-        }
-      },
-      "ConsoleApp7/1.0.0.0": {
-        "runtime": {
-          "ConsoleApp7.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ClassLibrary1/1.0.0.0": {
-        "runtime": {
-          "ClassLibrary1.dll": {
-            "assemblyVersion": "1.0.0.0",
+          "ClassLibrary2.dll": {
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -66,16 +52,6 @@
     },
     "ClassLibrary2/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ConsoleApp7/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClassLibrary1/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

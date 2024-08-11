@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "20W+j8K9NTqWKbzy2o+WMdybeJE+4FBL+xWNF7XW5gcAChZwU33yGPO+NhzfIIWMd2rO9X+YYnkaucLjFGBryQ==",
+  "dgSpecHash": "kH9C0il4Xgk=",
   "success": true,
   "projectFilePath": "P:\\VS Projects\\BezierCurveProject\\BezierCurveTests\\BezierCurveTests.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,10 @@
     "C:\\Users\\mrsam\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\mrsam\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\mrsam\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\mrsam\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\mrsam\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\mrsam\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.5\\microsoft.netcore.app.ref.8.0.5.nupkg.sha512",
+    "C:\\Users\\mrsam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.5\\microsoft.windowsdesktop.app.ref.8.0.5.nupkg.sha512",
+    "C:\\Users\\mrsam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.5\\microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
