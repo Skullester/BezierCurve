@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BezierCurveTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40127814aec05e7444afd62c2f43104cc9e8b9bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23b6af91e0505790316eb9fc065bb56b52d7cd3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BezierCurveTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BezierCurveTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

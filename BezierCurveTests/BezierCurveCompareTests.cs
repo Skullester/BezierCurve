@@ -3,7 +3,7 @@ using NUnit.Framework.Legacy;
 
 namespace BezierCurveTests;
 
-public class BezierCurveComparableTest
+public class BezierCurveCompareTests
 {
     [Test]
     public void BezierCurve_Of_DifferentTypes_ComparingTest()
