@@ -12,6 +12,11 @@
   &lt;Assembly Path="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.3\ref\net8.0\System.Drawing.Primitives.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.3\System.Private.CoreLib.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f90e883_002D10b3_002D430f_002Db035_002D784e6c42aa4d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BezierCurveComparableTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::ECD50BD5-7E24-4599-BAB3-488AA96DF1BB::net8.0::BezierCurveTests.BezierCurveComparableTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	
 	
 	</wpf:ResourceDictionary>

@@ -186,9 +186,7 @@ P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\zh-Hant\Micr
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\ClassLibrary2.dll
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\ClassLibrary1.dll
 P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\ClassLibrary2.pdb
-P:\VS Projects\BezierCurveProject\BezierCurveTests\bin\Debug\net8.0\ClassLibrary1.pdb
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.csproj.AssemblyReference.cache
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.GeneratedMSBuildEditorConfig.editorconfig
 P:\VS Projects\BezierCurveProject\BezierCurveTests\obj\Debug\net8.0\BezierCurveTests.AssemblyInfoInputs.cache
